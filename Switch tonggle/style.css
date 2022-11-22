@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-toggle{
+    width: 60px;
+    height: 30px;
+    border:  2px solid rgb(136, 135, 135);
+    position: relative;
+    background-color: rgb(194, 194, 194);
+    border-radius: 25px;
+}
+
+.slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+
+.slide:checked{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* https://alvarotrigo.com/blog/toggle-switch-css/ */
+
+
